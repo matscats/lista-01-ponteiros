@@ -1,0 +1,2 @@
+O primeiro programa irá percorrer os elementos do array vet[] e imprimir seus valores
+O segundo programa irá percorrer os elementos do array vet[] e imprimir seus endereços de memória em código hexadecimal

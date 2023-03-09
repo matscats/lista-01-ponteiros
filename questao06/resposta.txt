@@ -1,0 +1,2 @@
+A expressão que referencia o valor do terceiro elemento é a 
+*(pulo + 2)

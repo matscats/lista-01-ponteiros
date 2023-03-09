@@ -1,0 +1,3 @@
+Na linguagem C, as funções possuem um endereço na memória virtual e portanto podem existir ponteiros para funções.
+Através de ponteiros para funções torna-se possível passar uma função como parâmetro de outra função.
+No arquivo main.c há um exemplo de ponteiro para função.
