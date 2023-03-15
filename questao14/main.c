@@ -5,7 +5,7 @@
 // Função que irá comprar os valores para o qsort
 int compare(const void *x, const void *y)
 {
-  return *(int *)x - *(int *)y; 
+  return *(float *)x - *(float *)y; 
 }
 
 // Função que irá ordenar o array
