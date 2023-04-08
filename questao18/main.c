@@ -27,7 +27,7 @@ int main(void)
   // Matriz Resultado
   int C[2][2];
 
-  multiplica_matriz(*A, *B, *C, 2, 2, 2);
+  multiplica_matriz(*&A[0], *&B[0], *&C[0], 2, 2, 2);
 
   for (int i = 0; i < 2; i++) {
     for (int j = 0; j < 2; j++) {
