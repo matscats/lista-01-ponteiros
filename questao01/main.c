@@ -9,5 +9,5 @@ int main(void)
   printf("%d\n", p == &i);
   printf("%d\n", *p - *q);
   printf("%d\n", **&p);
-  printf("%d\n", 3 - *p/(*q) +7);
+  printf("%d\n", 3 - *p/(*q) + 7);
 }

@@ -1,1 +1,2 @@
-As respostas são compatíveis
+As respostas são compatíveis, com excessão do int, que na minha máquina ocupa 4 bytes de memória ao 
+invés de 2 bytes.

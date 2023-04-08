@@ -20,6 +20,10 @@ void ordena_float(const int n)
         }     
     }     
   }
+  // Printa os elementos ordenados
+  for (int i = 0; i < n; i++){
+    printf("%f\n", numeros_ordenados[i]);
+  }
   // Libera o espaço de memória
   free(numeros_ordenados);
 }

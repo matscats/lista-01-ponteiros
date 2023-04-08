@@ -1,4 +1,4 @@
 As expressões válidas são:
 
-p = mat + 1 -> o ponteiro p irá apontar para o endereço de memória de mat + 1
-x = (*mat)++ -> x irá receber o valor inteiro para o qual o ponteiro mat aponta e irá incrementar 1
+p = mat + 1 -> o ponteiro p irá apontar para o endereço de memória de mat + 1.
+x = (*mat)++ -> x irá receber o valor inteiro para o qual o ponteiro mat aponta e irá incrementar 1.

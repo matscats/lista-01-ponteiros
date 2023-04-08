@@ -4,7 +4,7 @@
 
 void callback(void)
 {
-  printf("Callback disparada");
+  printf("Callback disparada\n");
 }
 
 void func(int condicao, void (*callback) (void)) 
@@ -13,7 +13,7 @@ void func(int condicao, void (*callback) (void))
     callback();
   } 
   else {
-    printf("A callback falhou");
+    printf("A callback falhou\n");
   }
 }
 
@@ -21,5 +21,6 @@ int main(void)
 {
   void (*ptr) (void) = &callback;
   func(1, ptr);
+  func(2, ptr);
   return 0;
 }
