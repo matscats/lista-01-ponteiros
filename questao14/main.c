@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdarg.h>
 #include <stdio.h>
 
 // Função que irá comprar os valores para o qsort
@@ -9,7 +8,7 @@ int compare(const void *x, const void *y)
 }
 
 // Função que irá ordenar o array
-void ordena_float(int n)
+void ordena_float_qsort(int n)
 {
   // Aloca o espaço de memória
   float *numeros_ordenados = (float *) malloc(n * sizeof(float));
@@ -29,6 +28,6 @@ void ordena_float(int n)
 
 int main(void)
 {
-  ordena_float(3);
+  ordena_float_qsort(3);
   return 0;    
 }

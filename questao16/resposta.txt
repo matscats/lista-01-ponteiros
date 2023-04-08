@@ -1,0 +1,1 @@
+Na minha máquina o qsort implementado por mim foi mais rápido do que o qsort original.
